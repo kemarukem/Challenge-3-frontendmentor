@@ -1,0 +1,122 @@
+body {
+    background-color: #f3ebe4;
+   /* border: 2px solid red; */
+  }
+  
+  p {
+    font-family: arial;
+  }
+
+  b{
+    padding: 10px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-family: "fraunces";
+    font-size: 50px;
+    padding: 10px;
+    
+  }
+  
+  h2 {
+    color: #4c836e;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
+  h4 {
+    color: grey;
+    text-decoration: line-through;
+    padding: 20px;
+    margin: 30px;
+  }
+  
+  .shared-box-perfume {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 600px;
+    width: 900px;
+    margin: 200px;
+  }
+  
+  img {
+    border-radius: 20px 0px 0px 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .left-side, .right-side  {
+     border-radius: 20px;
+  }
+  
+  .left-side {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 100px;
+  }
+  .right-side {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  .summary {
+    padding: 15px;
+  }
+
+  .bottom-text {
+    display: flex;
+    flex-direction: row;
+    position: inline;
+  }
+  
+  .custom-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    width: 300px;
+    height: 50px;
+    background-color: #1a4031;
+    color: #fff;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #74a594;
+    color: white;
+  }
+  
+  
+  
+  /*--Desktop Design
+  
+  @media only screen and (min-width: 1440px) {
+    .shared-box-perfume {
+      flex-direction: row;
+    }
+  }
+  
+  --*/
+  
+  /*---Mobile Design
+  
+  @media only screen and (min-width: 400px) {
+    .shared-box-perfume {
+      flex-direction: column;
+    }
+  }
+  
+  ---*/
